@@ -1,11 +1,18 @@
 package mainpack;
 
+
 public class MainApp {
 
-	public static void main(String[] args) {
-		int n=1;
-	System.out.println("hello sapient");	// TODO Auto-generated method stub
-
+	private String privf;
+	String deff;
+	protected String prof;
+	public String pubf;
+	public void test1()
+	{
+		privf= "Private;";
+	    prof="Protected";
+		deff="Default";
+		pubf="Public";
 	}
 
 }
